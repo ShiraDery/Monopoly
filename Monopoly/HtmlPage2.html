@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="utils.js"></script>
+
+
+    <link href="style.css" rel="stylesheet" />
+    <script src="monopoly.js"></script>
+    <script src="cars.js"></script>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td class="game-cell" id="cell-7">
+                <img src="images/s.jpg" />
+            </td>
+            <td class="game-cell" id="cell-8"></td>
+            <td class="game-cell" id="cell-9"></td>
+            <td class="game-cell" id="cell-10">
+                <img src="images/s.jpg" />
+            </td>
+        </tr>
+        <tr>
+            <td class="game-cell" id="cell-6"></td>
+            <td colspan="2" id="logo">
+                <img src="images/dice.jpg" id="dice" />
+                <br />
+                <button onclick="endGame()">End game</button>
+
+            </td>
+
+            <td class="game-cell" id="cell-11"></td>
+        </tr>
+        <tr>
+            <td class="game-cell" id="cell-5"></td>
+            <td id="p1-cell" class="info">
+                Player 1 - Your Budget is: <div>$<span class="player-budget"></span></div>
+                <div id="capital1">Your Capital:$<span class="player-capital"></span></div>
+                <div id="station1">Your Stations:<span class="player-stations"></span> </div>
+            </td>
+            <td id="p2-cell" class="info">
+                Player 2 - Your Budget is:<div>$<span class="player-budget"></span></div>
+                <div id="capital2">Your Capital:$<span class="player-capital"></span></div>
+                <div id="station2">Your Stations:<span class="player-stations"></span> </div>
+            </td>
+            <td class="game-cell" id="cell-12"></td>
+        </tr>
+        <tr>
+            <td class="game-cell" id="cell-4">
+                <img src="images/s.jpg" />
+            </td>
+            <td class="game-cell" id="cell-3"></td>
+            <td class="game-cell" id="cell-2"></td>
+            <td class="game-cell" id="cell-1">
+                <img src="images/go.gif" />
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

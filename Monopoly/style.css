@@ -1,0 +1,67 @@
+﻿table {
+    width: 100vw;
+    height: 100vh;
+    font-family: Calibri;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#logo {
+    background-color: red;
+}
+
+#p1-cell, #p2-cell {
+    background-color: white;
+}
+
+.game-cell img {
+    width: 200px
+}
+
+#dice {
+    width: 50px
+}
+
+#cell-4, #cell-7, #cell-10, #cell-1 {
+    background-color: white;
+}
+
+#p1 {
+    float: left;
+    margin-left: 70px;
+}
+
+#p2 {
+    float: left;
+    margin-left: 70px;
+}
+
+#p1 img {
+    width: 50px;
+}
+
+#p2 img {
+    width: 50px;
+}
+
+h2 {
+    color: blue;
+    font-family: Calibri;
+}
+
+.player-budget {
+    font-family: Calibri;
+    color: blue;
+}
+
+.info {
+    font-family: Calibri;
+    color: blue;
+}
+
